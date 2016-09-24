@@ -4,6 +4,11 @@ html {
     font-size: 62.5%;
 }
 
+a {
+    color: #3b444f;
+    text-decoration: none;
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -60,7 +65,23 @@ body {
     line-hight: 2.5;
 }
 
+.account-list {
+    list-style: none;
+}
+
+.account-list li {
+    margin: 10px 0;
+}
+
+.account-list li a {
+    margin: 0 10px;
+}
+
 .footer {
     padding: 30px 0;
     font-size: 1.3rem;
 }
+
+
+
+
