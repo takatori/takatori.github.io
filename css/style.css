@@ -23,6 +23,9 @@ body {
 
 .header {
     padding: 480px 30px 480px;
+    background: #fff url('../img/bg.png') no-repeat fixed left bottom;
+    background-size: cover;
+    color: #fff;
 }
 
 .about {
