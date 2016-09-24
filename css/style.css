@@ -60,13 +60,17 @@ body {
     padding: 80px 30px;    
 }
 
+.contact {
+    padding: 80px 30px;    
+}
+
 .accounts {
-    margin: 30px 0;
     line-hight: 2.5;
 }
 
 .account-list {
     list-style: none;
+    display: inline-block;    
 }
 
 .account-list li {
@@ -81,7 +85,4 @@ body {
     padding: 30px 0;
     font-size: 1.3rem;
 }
-
-
-
 
