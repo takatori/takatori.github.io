@@ -6,8 +6,9 @@
         <link rel="shortcut icon" href="./img/favicon.ico">        
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
 		<link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/fakeLoader.css">        
 	</head>
 
 	<body>
@@ -45,8 +46,14 @@
                 </ul>
             </div>
 		</section>
+        <div id="fakeLoader"></div>
 		<footer class="footer">
             Copyright © 2016 Satoshi Takatori All rights reserved.
 		</footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+        <script src="./js/fakeLoader.min.js">
+        <script type="text/javascript">
+         $("#fakeloader").fakeLoader();
+        </script>        
 	</body>
 </html>
