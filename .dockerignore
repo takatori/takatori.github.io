@@ -1,0 +1,10 @@
+.git
+.github
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+node_modules
+vendor
+README.md
+CLAUDE.md

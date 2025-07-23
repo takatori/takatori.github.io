@@ -1,0 +1,53 @@
+# Site settings
+title: takatori.github.io
+description: 技術ブログ - GitHub Pages + Jekyll を使って技術情報を発信
+baseurl: ""
+url: "https://takatori.github.io"
+
+# Author
+author:
+  name: takatori
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Permalink structure
+permalink: /:year/:month/:day/:title/
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - CLAUDE.md
+
+# Collections
+collections:
+  posts:
+    output: true
+
+# Default settings
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "takatori"
