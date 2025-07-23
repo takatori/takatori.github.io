@@ -54,6 +54,8 @@ Blog posts require YAML front matter:
 title: "記事タイトル"
 date: YYYY-MM-DD
 tags: [技術, Jekyll]
+image: /assets/images/post-image.png  # Optional: OGP image for this post
+description: "記事の説明文"              # Optional: OGP description
 ---
 ```
 

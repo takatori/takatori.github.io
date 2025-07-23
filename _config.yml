@@ -8,6 +8,23 @@ url: "https://takatori.github.io"
 author:
   name: takatori
 
+# Social media and OGP settings
+social:
+  name: takatori
+  links:
+    - https://github.com/takatori
+
+# Default OGP image
+defaults_image: /assets/images/default-og.png
+
+# SEO settings
+twitter:
+  username: takatori
+  card: summary_large_image
+
+# OGP settings
+og_image: /assets/images/default-og.png
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
