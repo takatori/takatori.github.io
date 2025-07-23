@@ -1,20 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2025-07-23T00:49:07+00:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">takatori.github.io</title><subtitle>技術ブログ - GitHub Pages + Jekyll を使って技術情報を発信</subtitle><author><name>takatori</name></author><entry><title type="html">ClaudeCodeの使い方Tips集</title><link href="http://0.0.0.0:4000/2025/07/22/claudecode/" rel="alternate" type="text/html" title="ClaudeCodeの使い方Tips集" /><published>2025-07-22T00:00:00+00:00</published><updated>2025-07-22T00:00:00+00:00</updated><id>http://0.0.0.0:4000/2025/07/22/claudecode</id><content type="html" xml:base="http://0.0.0.0:4000/2025/07/22/claudecode/"><![CDATA[<p>これはClaudeCodeを使っていて学んだことを一箇所にまとめておくための記事です。
-さまざまなTipsが日々公開されているのでまとめておく。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2025-07-23T00:58:55+00:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">takatori.github.io</title><subtitle>技術ブログ - GitHub Pages + Jekyll を使って技術情報を発信</subtitle><author><name>takatori</name></author><entry><title type="html">ClaudeCodeの使い方Tips集</title><link href="http://0.0.0.0:4000/2025/07/22/claudecode/" rel="alternate" type="text/html" title="ClaudeCodeの使い方Tips集" /><published>2025-07-22T00:00:00+00:00</published><updated>2025-07-22T00:00:00+00:00</updated><id>http://0.0.0.0:4000/2025/07/22/claudecode</id><content type="html" xml:base="http://0.0.0.0:4000/2025/07/22/claudecode/"><![CDATA[これはClaudeCodeを使っていて学んだことを一箇所にまとめておくための記事です。
+さまざまなTipsが日々公開されているのでまとめておく。
 
-<h2 id="cluade-codeとは">Cluade Codeとは</h2>
+## Cluade Codeとは
 
-<h2 id="tips">Tips</h2>
 
-<h3 id="llmに読ませたくないファイルを管理する">LLMに読ませたくないファイルを管理する</h3>
 
-<p>https://izanami.dev/post/d6f25eec-71aa-4746-8c0d-80c67a1459be</p>
+## Tips
 
-<h3 id="利用料金を見る">利用料金を見る</h3>
+### LLMに読ませたくないファイルを管理する
 
-<p>ccussageを使う</p>
+https://izanami.dev/post/d6f25eec-71aa-4746-8c0d-80c67a1459be
 
-<p>https://github.com/ryoppippi/ccusage</p>
+### 利用料金を見る
 
-<h3 id="kiroのような開発スタイルにする">Kiroのような開発スタイルにする</h3>
+ccussageを使う
 
-<p>https://zenn.dev/gotalab/articles/3db0621ce3d6d2</p>]]></content><author><name>takatori</name></author><category term="ClaudeCode" /><category term="AI" /><category term="開発ツール" /><summary type="html"><![CDATA[ClaudeCodeを使っていて学んだことを一箇所にまとめたTips集です。LLMに読ませたくないファイル管理や利用料金確認など実用的な情報をまとめています。]]></summary></entry></feed>
+https://github.com/ryoppippi/ccusage
+
+### Kiroのような開発スタイルにする
+
+https://zenn.dev/gotalab/articles/3db0621ce3d6d2]]></content><author><name>takatori</name></author><category term="ClaudeCode" /><category term="AI" /><category term="開発ツール" /><summary type="html"><![CDATA[ClaudeCodeを使っていて学んだことを一箇所にまとめたTips集です。LLMに読ませたくないファイル管理や利用料金確認など実用的な情報をまとめています。]]></summary></entry></feed>
