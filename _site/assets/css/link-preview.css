@@ -1,0 +1,141 @@
+/* Embedded Link Card Styles */
+.link-card {
+  margin: 24px 0;
+  background: white;
+  border: 1px solid #e1e8ed;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.2s ease;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.link-card:hover {
+  border-color: #1da1f2;
+  box-shadow: 0 4px 12px rgba(29, 161, 242, 0.15);
+  transform: translateY(-2px);
+}
+
+.link-card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-card-content {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.link-card-image-wrapper {
+  flex: 0 0 200px;
+  background: #f7f9fa;
+}
+
+.link-card-image {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  display: block;
+}
+
+.link-card-text {
+  flex: 1;
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 120px;
+}
+
+.link-card-title {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #14171a;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.link-card-description {
+  margin: 0 0 12px 0;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #5b7083;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  flex-grow: 1;
+}
+
+.link-card-url {
+  font-size: 12px;
+  color: #8899a6;
+  text-transform: lowercase;
+  margin-top: auto;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .link-card {
+    background: #1a1a1a;
+    border-color: #2f3336;
+    color: white;
+  }
+  
+  .link-card:hover {
+    border-color: #1da1f2;
+    box-shadow: 0 4px 12px rgba(29, 161, 242, 0.25);
+  }
+  
+  .link-card-image-wrapper {
+    background: #2f3336;
+  }
+  
+  .link-card-title {
+    color: #ffffff;
+  }
+  
+  .link-card-description {
+    color: #8b98a5;
+  }
+  
+  .link-card-url {
+    color: #6e767d;
+  }
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .link-card-content {
+    flex-direction: column;
+  }
+  
+  .link-card-image-wrapper {
+    flex: none;
+    order: -1;
+  }
+  
+  .link-card-image {
+    height: 160px;
+  }
+  
+  .link-card-text {
+    min-height: auto;
+  }
+}

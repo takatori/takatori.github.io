@@ -21,8 +21,9 @@ https://izanami.dev/post/d6f25eec-71aa-4746-8c0d-80c67a1459be
 ### 利用料金を見る
 
 ccussageを使う
+
 https://github.com/ryoppippi/ccusage
 
-
 ### Kiroのような開発スタイルにする
+
 https://zenn.dev/gotalab/articles/3db0621ce3d6d2
