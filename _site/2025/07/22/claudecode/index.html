@@ -55,17 +55,19 @@
 
 <h2 id="cluade-codeとは">Cluade Codeとは</h2>
 
-<p>Clude CodeとはAnthropicのエージェント型コーディングツール。
+<p><a href="https://docs.anthropic.com/ja/docs/claude-code/overview">Clude Code</a>とはAnthropicのエージェント型コーディングツール。
 作りたいものを自然言語で伝えると、モデルが自律的に考えてコードを実装してくれる。</p>
 
-<p>https://docs.anthropic.com/ja/docs/claude-code/overview</p>
+<h3 id="インストール方法">インストール方法</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ npm install -g @anthropic-ai/claude-code
+</code></pre></div></div>
 
 <h2 id="tips">Tips</h2>
 
 <h3 id="設定">設定</h3>
 
-<p>Claude Code自体の設定はjsonファイルに記述する<br />
-https://docs.anthropic.com/ja/docs/claude-code/settings</p>
+<p>Claude Code自体の設定は<a href="https://docs.anthropic.com/ja/docs/claude-code/settings">jsonファイル</a>に記述する</p>
 
 <table>
   <thead>
@@ -104,35 +106,39 @@ https://docs.anthropic.com/ja/docs/claude-code/settings</p>
 
 <ul>
   <li>機密情報など読ませたくないファイルは <code class="language-plaintext highlighter-rouge">permissions</code>で制御する</li>
-  <li>設定している項目は<code class="language-plaintext highlighter-rouge">/permissions</code>コマンドで確認できる</li>
+  <li>設定している項目は<code class="language-plaintext highlighter-rouge">/permissions</code>スラッシュコマンドで確認できる</li>
 </ul>
 
 <p><a href="https://izanami.dev/post/d6f25eec-71aa-4746-8c0d-80c67a1459be">ClaudeCodeでLLMに読ませたくないファイルを管理する方法</a></p>
 
-<h3 id="mcp">MCP</h3>
-<p>https://docs.anthropic.com/ja/docs/claude-code/mcp</p>
-
 <h3 id="利用料金を見る">利用料金を見る</h3>
 
-<p>ccussageを使う
-<a href="https://github.com/ryoppippi/ccusage">ryoppippi/ccusage - GitHub</a></p>
+<p><a href="https://github.com/ryoppippi/ccusage">ryoppippi/ccusage - GitHub</a>を使う</p>
 
-<h3 id="kiroのような開発スタイルにする">Kiroのような開発スタイルにする</h3>
+<p>料金を常に確認したい場合は、メニューバーに表示させておくと良さそう
+<a href="https://zenn.dev/todesking/articles/ccusage-in-mac-menu-bar">ccusageの出力をMacのメニューバーに表示する</a></p>
 
-<p><a href="https://zenn.dev/gotalab/articles/3db0621ce3d6d2">Kiroの仕様書駆動開発プロセスをClaude Codeで徹底的に再現した</a></p>
+<h3 id="hooks">Hooks</h3>
 
-<h3 id="hook">Hook</h3>
-<p>https://docs.anthropic.com/ja/docs/claude-code/hooks-guide</p>
+<p><a href="https://docs.anthropic.com/ja/docs/claude-code/hooks-guide">hooks</a>はClaude Code のライフサイクルの様々な時点で実行されるユーザー定義のシェルコマンド。</p>
 
-<p><a href="https://syu-m-5151.hatenablog.com/entry/2025/07/14/105812">Claude CodeのHooksは設定したほうがいい</a></p>
+<p>以下の記事がとても参考になる。
+<a href="https://syu-m-5151.hatenablog.com/entry/2025/07/14/105812">Claude CodeのHooksは設定したほうがいい</a></p>
 
 <h3 id="カスタムスラッシュコマンド">カスタムスラッシュコマンド</h3>
 
 <p><a href="https://tech.findy.co.jp/entry/2025/07/23/070000">【Claude Codeの活用事例】よく使うカスタムスラッシュコマンド5選！</a></p>
 
+<h3 id="mcp">MCP</h3>
+<p>https://docs.anthropic.com/ja/docs/claude-code/mcp</p>
+
 <h3 id="sub-agent">Sub Agent</h3>
 
-<p>https://zenn.dev/tacoms/articles/552140c84aaefa</p>
+<p><a href="https://zenn.dev/tacoms/articles/552140c84aaefa">Claude CodeのSub agentsでコンテキスト枯渇問題をサクッと解決できたはなし</a></p>
+
+<h3 id="kiroのような開発スタイルにする">Kiroのような開発スタイルにする</h3>
+
+<p><a href="https://zenn.dev/gotalab/articles/3db0621ce3d6d2">Kiroの仕様書駆動開発プロセスをClaude Codeで徹底的に再現した</a></p>
 
   </div><a class="u-url" href="/2025/07/22/claudecode/" hidden></a>
 </article>

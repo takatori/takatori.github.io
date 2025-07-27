@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2025-07-27T01:27:11+00:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">takatori.github.io</title><subtitle>技術ブログ - GitHub Pages + Jekyll を使って技術情報を発信</subtitle><author><name>takatori</name></author><entry><title type="html">過去の記事</title><link href="http://0.0.0.0:4000/2025/07/27/previous/" rel="alternate" type="text/html" title="過去の記事" /><published>2025-07-27T00:00:00+00:00</published><updated>2025-07-27T00:00:00+00:00</updated><id>http://0.0.0.0:4000/2025/07/27/previous</id><content type="html" xml:base="http://0.0.0.0:4000/2025/07/27/previous/"><![CDATA[### 個人
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2025-07-27T02:20:57+00:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">takatori.github.io</title><subtitle>技術ブログ - GitHub Pages + Jekyll を使って技術情報を発信</subtitle><author><name>takatori</name></author><entry><title type="html">過去の記事</title><link href="http://0.0.0.0:4000/2025/07/27/previous/" rel="alternate" type="text/html" title="過去の記事" /><published>2025-07-27T00:00:00+00:00</published><updated>2025-07-27T00:00:00+00:00</updated><id>http://0.0.0.0:4000/2025/07/27/previous</id><content type="html" xml:base="http://0.0.0.0:4000/2025/07/27/previous/"><![CDATA[### 個人
 
 - [ElasticsearchのANN Searchを試す](https://qiita.com/takatori/items/2ab863285904031f4588)
 - [Vespaで検索結果のdedupeを行う方法](https://qiita.com/takatori/items/34c9fd0a5468df93ffa1)
@@ -9,65 +9,92 @@
 - [検索エンジンをVespaへ移行しています](https://techblog.stanby.
 co.jp/entry/vespa_migration)
 - [モジュール分割による負債解消の取り組み](https://techblog.stanby.co.jp/entry/stanby_api_refactoring)
-- [スタンバイの検索の仕組み](https://techblog.stanby.co.jp/entry/stanby_search)]]></content><author><name>takatori</name></author><summary type="html"><![CDATA[過去の記事のリンクをまとめた記事]]></summary></entry><entry><title type="html">ClaudeCodeの使い方Tips集</title><link href="http://0.0.0.0:4000/2025/07/22/claudecode/" rel="alternate" type="text/html" title="ClaudeCodeの使い方Tips集" /><published>2025-07-22T00:00:00+00:00</published><updated>2025-07-22T00:00:00+00:00</updated><id>http://0.0.0.0:4000/2025/07/22/claudecode</id><content type="html" xml:base="http://0.0.0.0:4000/2025/07/22/claudecode/"><![CDATA[これはClaudeCodeを使っていて学んだことを一箇所にまとめておくための記事です。
-さまざまなTipsが日々公開されているのでまとめておく。
+- [スタンバイの検索の仕組み](https://techblog.stanby.co.jp/entry/stanby_search)]]></content><author><name>takatori</name></author><summary type="html"><![CDATA[過去の記事のリンクをまとめた記事]]></summary></entry><entry><title type="html">ClaudeCodeの使い方Tips集</title><link href="http://0.0.0.0:4000/2025/07/22/claudecode/" rel="alternate" type="text/html" title="ClaudeCodeの使い方Tips集" /><published>2025-07-22T00:00:00+00:00</published><updated>2025-07-22T00:00:00+00:00</updated><id>http://0.0.0.0:4000/2025/07/22/claudecode</id><content type="html" xml:base="http://0.0.0.0:4000/2025/07/22/claudecode/"><![CDATA[<p>これはClaudeCodeを使っていて学んだことを一箇所にまとめておくための記事です。
+さまざまなTipsが日々公開されているのでまとめておく。</p>
 
-## Cluade Codeとは
+<h2 id="cluade-codeとは">Cluade Codeとは</h2>
 
-Clude CodeとはAnthropicのエージェント型コーディングツール。
-作りたいものを自然言語で伝えると、モデルが自律的に考えてコードを実装してくれる。
+<p><a href="https://docs.anthropic.com/ja/docs/claude-code/overview">Clude Code</a>とはAnthropicのエージェント型コーディングツール。
+作りたいものを自然言語で伝えると、モデルが自律的に考えてコードを実装してくれる。</p>
 
-https://docs.anthropic.com/ja/docs/claude-code/overview
+<h3 id="インストール方法">インストール方法</h3>
 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ npm install -g @anthropic-ai/claude-code
+</code></pre></div></div>
 
-## Tips
+<h2 id="tips">Tips</h2>
 
-### 設定
+<h3 id="設定">設定</h3>
 
-Claude Code自体の設定はjsonファイルに記述する  
-https://docs.anthropic.com/ja/docs/claude-code/settings
+<p>Claude Code自体の設定は<a href="https://docs.anthropic.com/ja/docs/claude-code/settings">jsonファイル</a>に記述する</p>
 
-| 設定の種類       | ファイルパス                          | 適用範囲           | 用途・特徴                                                                 |
-|------------------|----------------------------------------|--------------------|------------------------------------------------------------------------------|
-| ユーザー設定     | `~/.claude/settings.json`              | すべてのプロジェクト | グローバルな設定。全プロジェクトに共通して適用される                         |
-| プロジェクト設定 | `.claude/settings.json`                | 該当プロジェクトのみ | ソース管理にチェックインされ、チームと共有される設定                         |
-| 個人用設定       | `.claude/settings.local.json`          | 該当プロジェクトのみ | 個人的・一時的な設定。ソース管理に含めない。作成時に`.gitignore`に自動で追加 |
+<table>
+  <thead>
+    <tr>
+      <th>設定の種類</th>
+      <th>ファイルパス</th>
+      <th>適用範囲</th>
+      <th>用途・特徴</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ユーザー設定</td>
+      <td><code class="language-plaintext highlighter-rouge">~/.claude/settings.json</code></td>
+      <td>すべてのプロジェクト</td>
+      <td>グローバルな設定。全プロジェクトに共通して適用される</td>
+    </tr>
+    <tr>
+      <td>プロジェクト設定</td>
+      <td><code class="language-plaintext highlighter-rouge">.claude/settings.json</code></td>
+      <td>該当プロジェクトのみ</td>
+      <td>ソース管理にチェックインされ、チームと共有される設定</td>
+    </tr>
+    <tr>
+      <td>個人用設定</td>
+      <td><code class="language-plaintext highlighter-rouge">.claude/settings.local.json</code></td>
+      <td>該当プロジェクトのみ</td>
+      <td>個人的・一時的な設定。ソース管理に含めない。作成時に<code class="language-plaintext highlighter-rouge">.gitignore</code>に自動で追加</td>
+    </tr>
+  </tbody>
+</table>
 
+<p>ユーザ設定をdotfilesに入れておくと良さそう</p>
 
-ユーザ設定をdotfilesに入れておくと良さそう
+<h4 id="読ませたくないファイルの管理">読ませたくないファイルの管理</h4>
 
-#### 読ませたくないファイルの管理
+<ul>
+  <li>機密情報など読ませたくないファイルは <code class="language-plaintext highlighter-rouge">permissions</code>で制御する</li>
+  <li>設定している項目は<code class="language-plaintext highlighter-rouge">/permissions</code>スラッシュコマンドで確認できる</li>
+</ul>
 
-- 機密情報など読ませたくないファイルは `permissions`で制御する
-- 設定している項目は`/permissions`コマンドで確認できる
+<p><a href="https://izanami.dev/post/d6f25eec-71aa-4746-8c0d-80c67a1459be">ClaudeCodeでLLMに読ませたくないファイルを管理する方法</a></p>
 
-[ClaudeCodeでLLMに読ませたくないファイルを管理する方法](https://izanami.dev/post/d6f25eec-71aa-4746-8c0d-80c67a1459be)
+<h3 id="利用料金を見る">利用料金を見る</h3>
 
+<p><a href="https://github.com/ryoppippi/ccusage">ryoppippi/ccusage - GitHub</a>を使う</p>
 
+<p>料金を常に確認したい場合は、メニューバーに表示させておくと良さそう
+<a href="https://zenn.dev/todesking/articles/ccusage-in-mac-menu-bar">ccusageの出力をMacのメニューバーに表示する</a></p>
 
-### MCP
-https://docs.anthropic.com/ja/docs/claude-code/mcp
+<h3 id="hooks">Hooks</h3>
 
-### 利用料金を見る
+<p><a href="https://docs.anthropic.com/ja/docs/claude-code/hooks-guide">hooks</a>はClaude Code のライフサイクルの様々な時点で実行されるユーザー定義のシェルコマンド。</p>
 
-ccussageを使う
-[ryoppippi/ccusage - GitHub](https://github.com/ryoppippi/ccusage)
+<p>以下の記事がとても参考になる。
+<a href="https://syu-m-5151.hatenablog.com/entry/2025/07/14/105812">Claude CodeのHooksは設定したほうがいい</a></p>
 
-### Kiroのような開発スタイルにする
+<h3 id="カスタムスラッシュコマンド">カスタムスラッシュコマンド</h3>
 
-[Kiroの仕様書駆動開発プロセスをClaude Codeで徹底的に再現した](https://zenn.dev/gotalab/articles/3db0621ce3d6d2)
+<p><a href="https://tech.findy.co.jp/entry/2025/07/23/070000">【Claude Codeの活用事例】よく使うカスタムスラッシュコマンド5選！</a></p>
 
-### Hook
-https://docs.anthropic.com/ja/docs/claude-code/hooks-guide
+<h3 id="mcp">MCP</h3>
+<p>https://docs.anthropic.com/ja/docs/claude-code/mcp</p>
 
+<h3 id="sub-agent">Sub Agent</h3>
 
-[Claude CodeのHooksは設定したほうがいい](https://syu-m-5151.hatenablog.com/entry/2025/07/14/105812)
+<p><a href="https://zenn.dev/tacoms/articles/552140c84aaefa">Claude CodeのSub agentsでコンテキスト枯渇問題をサクッと解決できたはなし</a></p>
 
-### カスタムスラッシュコマンド
+<h3 id="kiroのような開発スタイルにする">Kiroのような開発スタイルにする</h3>
 
-[【Claude Codeの活用事例】よく使うカスタムスラッシュコマンド5選！](https://tech.findy.co.jp/entry/2025/07/23/070000)
-
-
-### Sub Agent
-
-https://zenn.dev/tacoms/articles/552140c84aaefa]]></content><author><name>takatori</name></author><category term="ClaudeCode" /><category term="AI" /><category term="開発ツール" /><summary type="html"><![CDATA[ClaudeCodeを使っていて学んだことを一箇所にまとめたTips集です。LLMに読ませたくないファイル管理や利用料金確認など実用的な情報をまとめています。]]></summary></entry></feed>
+<p><a href="https://zenn.dev/gotalab/articles/3db0621ce3d6d2">Kiroの仕様書駆動開発プロセスをClaude Codeで徹底的に再現した</a></p>]]></content><author><name>takatori</name></author><category term="ClaudeCode" /><category term="AI" /><category term="開発ツール" /><summary type="html"><![CDATA[ClaudeCodeを使っていて学んだことを一箇所にまとめたTips集です。LLMに読ませたくないファイル管理や利用料金確認など実用的な情報をまとめています。]]></summary></entry></feed>
