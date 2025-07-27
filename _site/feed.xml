@@ -1,19 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2025-07-27T01:24:35+00:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">takatori.github.io</title><subtitle>技術ブログ - GitHub Pages + Jekyll を使って技術情報を発信</subtitle><author><name>takatori</name></author><entry><title type="html">過去の記事</title><link href="http://0.0.0.0:4000/2025/07/27/previous/" rel="alternate" type="text/html" title="過去の記事" /><published>2025-07-27T00:00:00+00:00</published><updated>2025-07-27T00:00:00+00:00</updated><id>http://0.0.0.0:4000/2025/07/27/previous</id><content type="html" xml:base="http://0.0.0.0:4000/2025/07/27/previous/"><![CDATA[<h3 id="個人">個人</h3>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2025-07-27T01:27:11+00:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">takatori.github.io</title><subtitle>技術ブログ - GitHub Pages + Jekyll を使って技術情報を発信</subtitle><author><name>takatori</name></author><entry><title type="html">過去の記事</title><link href="http://0.0.0.0:4000/2025/07/27/previous/" rel="alternate" type="text/html" title="過去の記事" /><published>2025-07-27T00:00:00+00:00</published><updated>2025-07-27T00:00:00+00:00</updated><id>http://0.0.0.0:4000/2025/07/27/previous</id><content type="html" xml:base="http://0.0.0.0:4000/2025/07/27/previous/"><![CDATA[### 個人
 
-<ul>
-  <li><a href="https://qiita.com/takatori/items/2ab863285904031f4588">ElasticsearchのANN Searchを試す</a></li>
-  <li><a href="https://qiita.com/takatori/items/34c9fd0a5468df93ffa1">Vespaで検索結果のdedupeを行う方法</a></li>
-  <li><a href="https://qiita.com/takatori/items/c8eb4501ef33d4eedc8f">「機械学習による検索ランキング改善ガイド」をVespaでやってみる</a></li>
-  <li><a href="https://takatorix.hatenablog.com/">はてなブログ</a></li>
-</ul>
+- [ElasticsearchのANN Searchを試す](https://qiita.com/takatori/items/2ab863285904031f4588)
+- [Vespaで検索結果のdedupeを行う方法](https://qiita.com/takatori/items/34c9fd0a5468df93ffa1)
+- [「機械学習による検索ランキング改善ガイド」をVespaでやってみる](https://qiita.com/takatori/items/c8eb4501ef33d4eedc8f)
+- [はてなブログ](https://takatorix.hatenablog.com/)
 
-<h3 id="企業ブログ株式会社スタンバイ">企業ブログ(株式会社スタンバイ)</h3>
-<ul>
-  <li><a href="https://techblog.stanby.
-co.jp/entry/vespa_migration">検索エンジンをVespaへ移行しています</a></li>
-  <li><a href="https://techblog.stanby.co.jp/entry/stanby_api_refactoring">モジュール分割による負債解消の取り組み</a></li>
-  <li><a href="https://techblog.stanby.co.jp/entry/stanby_search">スタンバイの検索の仕組み</a></li>
-</ul>]]></content><author><name>takatori</name></author><summary type="html"><![CDATA[過去の記事のリンクをまとめた記事]]></summary></entry><entry><title type="html">ClaudeCodeの使い方Tips集</title><link href="http://0.0.0.0:4000/2025/07/22/claudecode/" rel="alternate" type="text/html" title="ClaudeCodeの使い方Tips集" /><published>2025-07-22T00:00:00+00:00</published><updated>2025-07-22T00:00:00+00:00</updated><id>http://0.0.0.0:4000/2025/07/22/claudecode</id><content type="html" xml:base="http://0.0.0.0:4000/2025/07/22/claudecode/"><![CDATA[これはClaudeCodeを使っていて学んだことを一箇所にまとめておくための記事です。
+### 企業ブログ(株式会社スタンバイ)
+- [検索エンジンをVespaへ移行しています](https://techblog.stanby.
+co.jp/entry/vespa_migration)
+- [モジュール分割による負債解消の取り組み](https://techblog.stanby.co.jp/entry/stanby_api_refactoring)
+- [スタンバイの検索の仕組み](https://techblog.stanby.co.jp/entry/stanby_search)]]></content><author><name>takatori</name></author><summary type="html"><![CDATA[過去の記事のリンクをまとめた記事]]></summary></entry><entry><title type="html">ClaudeCodeの使い方Tips集</title><link href="http://0.0.0.0:4000/2025/07/22/claudecode/" rel="alternate" type="text/html" title="ClaudeCodeの使い方Tips集" /><published>2025-07-22T00:00:00+00:00</published><updated>2025-07-22T00:00:00+00:00</updated><id>http://0.0.0.0:4000/2025/07/22/claudecode</id><content type="html" xml:base="http://0.0.0.0:4000/2025/07/22/claudecode/"><![CDATA[これはClaudeCodeを使っていて学んだことを一箇所にまとめておくための記事です。
 さまざまなTipsが日々公開されているのでまとめておく。
 
 ## Cluade Codeとは
