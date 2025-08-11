@@ -98,11 +98,3 @@ bundle exec jekyll serve
 ├── CLAUDE.md           # Claude Code 用ガイド
 └── README.md           # このファイル
 ```
-
-## 🐳 Docker による開発
-
-Dockerを使用することで環境構築不要で開発できます：
-
-- **依存関係の管理が不要** - Ruby、Jekyll、Bundler すべて含まれています
-- **環境の統一** - どのマシンでも同じ環境で実行可能
-- **自動リロード** - ファイル変更時に自動でサイトが更新

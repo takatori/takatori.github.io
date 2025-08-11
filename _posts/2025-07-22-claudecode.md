@@ -50,6 +50,7 @@ Claude Code自体の設定は[jsonファイル](https://docs.anthropic.com/ja/do
 [ryoppippi/ccusage - GitHub](https://github.com/ryoppippi/ccusage)を使う
 
 料金を常に確認したい場合は、メニューバーに表示させておくと良さそう
+
 [ccusageの出力をMacのメニューバーに表示する](https://zenn.dev/todesking/articles/ccusage-in-mac-menu-bar)
 
 ### Hooks

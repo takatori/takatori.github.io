@@ -1,0 +1,9 @@
+{
+  "rules": {
+    "textlint-rule-no-dropping-the-ra": true,
+    "textlint-rule-no-doubled-joshi": true,
+    "textlint-rule-ja-unnatural-alphabet": true,
+    "textlint-rule-ja-no-redundant-expression": true,
+    "preset-ja-technical-writing": true
+  }
+}
