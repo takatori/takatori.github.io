@@ -1,6 +1,6 @@
 # Site settings
 title: takatori.github.io
-description: 技術ブログ - GitHub Pages + Jekyll を使って技術情報を発信
+description: 技術ブログ
 baseurl: ""
 url: "https://takatori.github.io"
 
