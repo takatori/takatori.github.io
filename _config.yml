@@ -28,25 +28,25 @@ og_image: /assets/images/default-og.png
 # Build settings
 markdown: kramdown
 highlighter: rouge
-theme: minima
 
 # Markdown parser settings
 kramdown:
   input: GFM  # Enable GitHub Flavored Markdown (autolink bare URLs, tables, etc.)
   hard_wrap: false
 
-# Plugins
+remote_theme: jeffreytse/jekyll-theme-yat
+
+lang: ja
+
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-
+  - jekyll-remote-theme 
+  
 # Permalink structure
 permalink: /:year/:month/:day/:title/
-
-# Pagination
-paginate: 5
-paginate_path: "/page:num/"
 
 # Exclude from processing
 exclude:
