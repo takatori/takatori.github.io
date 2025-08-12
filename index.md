@@ -3,4 +3,4 @@ layout: home
 title: Home
 ---
 
-# takatori.github.io
+- [posts](/posts)
