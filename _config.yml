@@ -34,7 +34,7 @@ kramdown:
   input: GFM  # Enable GitHub Flavored Markdown (autolink bare URLs, tables, etc.)
   hard_wrap: false
 
-remote_theme: jeffreytse/jekyll-theme-yat
+remote_theme: pages-themes/primer@v0.6.0
 
 lang: ja
 
