@@ -78,11 +78,27 @@ https://docs.anthropic.com/ja/docs/claude-code/mcp
 
 ### Kiroのような開発スタイルにする
 
+[Kiro](https://kiro.dev/)とはAWSが開発した、AIエージェントを組み込んたIDE(統合開発環境)。
+
+[Kiro のご紹介 – プロトタイプからプロダクションまで、あなたと共に働く新しい Agentic IDE](https://aws.amazon.com/jp/blogs/news/introducing-kiro/)
+
+Kiroの特徴として、specとhookというものがある。主にKiroが注目を集めたのはspec機能。
+specは要件を明確化する機能で、作りたいプロダクトについて詳細な要件を作成してくれる。
+具体的には、ユーザーストーリー、設計文書、タスクの作成まで一貫して行ってくれる。
+また、実装が進んでコードベースが変更されると、それに合わせて仕様やタスクを更新もできる。
+これにより、仕様が不明確になったり、ドキュメントとコードベースのズレを防ぐことができ、より効率的にAIエージェントを用いた開発ができる。
+
+Kiroは便利だが、エディタやモデルが固定されていたり、preivewで動作が不安定だったりするため、
+Kiroのような使用開発駆動をClude Codeで再現する人が出てきた。
 [Kiroの仕様書駆動開発プロセスをClaude Codeで徹底的に再現した](https://zenn.dev/gotalab/articles/3db0621ce3d6d2)
 
+[claude-code-spec](https://github.com/gotalab/claude-code-spec)では、Clude CodeのSlash Commandを使うことで、Kiroの再現をしている。
 
 ### Serena
-https://blog.lai.so/serena/
+Serenaは、AIエージェント向けのコーディング支援ツール
+[Serena MCPはClaude Codeを救うのか？](https://blog.lai.so/serena/)
+
+
 
 ### security-review
 https://www.anthropic.com/news/automate-security-reviews-with-claude-code
