@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2025-08-12T01:37:00+00:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">takatori.github.io</title><subtitle>技術ブログ</subtitle><author><name>takatori</name></author><entry><title type="html">Essential GraphRAGを読んだ</title><link href="http://0.0.0.0:4000/2025/08/08/graphrag/" rel="alternate" type="text/html" title="Essential GraphRAGを読んだ" /><published>2025-08-08T00:00:00+00:00</published><updated>2025-08-08T00:00:00+00:00</updated><id>http://0.0.0.0:4000/2025/08/08/graphrag</id><content type="html" xml:base="http://0.0.0.0:4000/2025/08/08/graphrag/"><![CDATA[<p><a href="https://neo4j.com/essential-graphrag/">Essential GraphRAG</a>という本を実装しながら読んだので、学んだ内容をまとめた。
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Essential GraphRAGを読んだ | takatori.github.io</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Essential GraphRAGを読んだ" />
+<meta name="author" content="takatori" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Essential GraphRAGを読んで学んだことをまとめた" />
+<meta property="og:description" content="Essential GraphRAGを読んで学んだことをまとめた" />
+<link rel="canonical" href="http://0.0.0.0:4000/2025/08/08/graphrag/" />
+<meta property="og:url" content="http://0.0.0.0:4000/2025/08/08/graphrag/" />
+<meta property="og:site_name" content="takatori.github.io" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-08-08T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Essential GraphRAGを読んだ" />
+<meta name="twitter:site" content="@takatori" />
+<meta name="twitter:creator" content="@takatori" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"takatori"},"dateModified":"2025-08-08T00:00:00+00:00","datePublished":"2025-08-08T00:00:00+00:00","description":"Essential GraphRAGを読んで学んだことをまとめた","headline":"Essential GraphRAGを読んだ","mainEntityOfPage":{"@type":"WebPage","@id":"http://0.0.0.0:4000/2025/08/08/graphrag/"},"url":"http://0.0.0.0:4000/2025/08/08/graphrag/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="/assets/css/link-preview.css"><link type="application/atom+xml" rel="alternate" href="http://0.0.0.0:4000/feed.xml" title="takatori.github.io" /></head><body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">takatori.github.io</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/">Home</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Essential GraphRAGを読んだ</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2025-08-08T00:00:00+00:00" itemprop="datePublished">Aug 8, 2025
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">takatori</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><a href="https://neo4j.com/essential-graphrag/">Essential GraphRAG</a>という本を実装しながら読んだので、学んだ内容をまとめた。
 実装したコードは以下においてある。本ではOpenAIのAPIを使用していたが、コストをかけたくなかったのでOllamaで実装してみた。
 https://github.com/takatori/essential-graph-rag</p>
 
@@ -349,95 +401,33 @@ RAGASを含めたLLMの評価指標については、<a href="https://tech.smart
 <p>Essential GraphRAGを読んで学んだことをまとめた。実際に手を動かすことでかなり理解が進んだ。
 ベクトル検索だけでは対応できないクエリでは、グラフを活用することで対処できることを学んだ。
 さらなる発展は<a href="https://zenn.dev/zenkigen_tech/articles/0a25b2eaefb304">ナレッジグラフを活用するGraphRAGを俯瞰する</a>に詳しくまとまっていそうなので、参考にしたい。
-また、Graph Neural Networkも学ぶ必要がありそうなので、<a href="https://www.manning.com/books/graph-neural-networks-in-action">Graph Neural Networks in Action</a>も気になっている。</p>]]></content><author><name>takatori</name></author><summary type="html"><![CDATA[Essential GraphRAGを読んで学んだことをまとめた]]></summary></entry><entry><title type="html">過去の記事</title><link href="http://0.0.0.0:4000/2025/07/27/previous/" rel="alternate" type="text/html" title="過去の記事" /><published>2025-07-27T00:00:00+00:00</published><updated>2025-07-27T00:00:00+00:00</updated><id>http://0.0.0.0:4000/2025/07/27/previous</id><content type="html" xml:base="http://0.0.0.0:4000/2025/07/27/previous/"><![CDATA[### 個人
+また、Graph Neural Networkも学ぶ必要がありそうなので、<a href="https://www.manning.com/books/graph-neural-networks-in-action">Graph Neural Networks in Action</a>も気になっている。</p>
 
-- [ElasticsearchのANN Searchを試す](https://qiita.com/takatori/items/2ab863285904031f4588)
-- [Vespaで検索結果のdedupeを行う方法](https://qiita.com/takatori/items/34c9fd0a5468df93ffa1)
-- [「機械学習による検索ランキング改善ガイド」をVespaでやってみる](https://qiita.com/takatori/items/c8eb4501ef33d4eedc8f)
-- [はてなブログ](https://takatorix.hatenablog.com/)
+  </div><a class="u-url" href="/2025/08/08/graphrag/" hidden></a>
+</article>
 
-### 企業ブログ(株式会社スタンバイ)
-- [検索エンジンをVespaへ移行しています](https://techblog.stanby.
-co.jp/entry/vespa_migration)
-- [モジュール分割による負債解消の取り組み](https://techblog.stanby.co.jp/entry/stanby_api_refactoring)
-- [スタンバイの検索の仕組み](https://techblog.stanby.co.jp/entry/stanby_search)]]></content><author><name>takatori</name></author><summary type="html"><![CDATA[過去の記事のリンクをまとめた記事]]></summary></entry><entry><title type="html">ClaudeCodeの使い方Tips集</title><link href="http://0.0.0.0:4000/2025/07/22/claudecode/" rel="alternate" type="text/html" title="ClaudeCodeの使い方Tips集" /><published>2025-07-22T00:00:00+00:00</published><updated>2025-07-22T00:00:00+00:00</updated><id>http://0.0.0.0:4000/2025/07/22/claudecode</id><content type="html" xml:base="http://0.0.0.0:4000/2025/07/22/claudecode/"><![CDATA[これはClaudeCodeを使っていて学んだことを一箇所にまとめておくための記事です。
-さまざまなTipsが日々公開されているのでまとめておく。
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
 
-## Cluade Codeとは
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">takatori</li></ul>
+      </div>
 
-[Clude Code](https://docs.anthropic.com/ja/docs/claude-code/overview)とはAnthropicのエージェント型コーディングツール。
-作りたいものを自然言語で伝えると、モデルが自律的に考えてコードを実装してくれる。
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
 
-### インストール方法
+      <div class="footer-col footer-col-3">
+        <p>技術ブログ</p>
+      </div>
+    </div>
+  </div>
 
-```
-$ npm install -g @anthropic-ai/claude-code
-```
+  <!-- Link Preview Script -->
+  <script src="/assets/js/link-preview.js"></script>
+</footer></body>
 
-
-
-## Tips
-
-### 設定
-
-Claude Code自体の設定は[jsonファイル](https://docs.anthropic.com/ja/docs/claude-code/settings)に記述する。
-
-
-| 設定の種類       | ファイルパス                          | 適用範囲           | 用途・特徴                                                                 |
-|------------------|----------------------------------------|--------------------|------------------------------------------------------------------------------|
-| ユーザー設定     | `~/.claude/settings.json`              | すべてのプロジェクト | グローバルな設定。全プロジェクトに共通して適用される                         |
-| プロジェクト設定 | `.claude/settings.json`                | 該当プロジェクトのみ | ソース管理にチェックインされ、チームと共有される設定                         |
-| 個人用設定       | `.claude/settings.local.json`          | 該当プロジェクトのみ | 個人的・一時的な設定。ソース管理に含めない。作成時に`.gitignore`に自動で追加 |
-
-
-ユーザ設定をdotfilesに入れておくと良さそう。
-
-#### 読ませたくないファイルの管理
-
-- 機密情報など読ませたくないファイルは `permissions`で制御する
-- 設定している項目は`/permissions`スラッシュコマンドで確認できる
-
-[ClaudeCodeでLLMに読ませたくないファイルを管理する方法](https://izanami.dev/post/d6f25eec-71aa-4746-8c0d-80c67a1459be)
-
-
-### 利用料金を見る
-
-[ryoppippi/ccusage - GitHub](https://github.com/ryoppippi/ccusage)を使う。
-
-料金を常に確認したい場合は、メニューバーに表示させておく。
-
-[ccusageの出力をMacのメニューバーに表示する](https://zenn.dev/todesking/articles/ccusage-in-mac-menu-bar)
-
-### Hooks
-
-[hooks](https://docs.anthropic.com/ja/docs/claude-code/hooks-guide)はClaude Code のライフサイクルの様々な時点で実行されるユーザー定義のシェルコマンド。
-
-以下の記事がとても参考になる。
-[Claude CodeのHooksは設定したほうがいい](https://syu-m-5151.hatenablog.com/entry/2025/07/14/105812)
-
-
-### カスタムスラッシュコマンド
-
-[【Claude Codeの活用事例】よく使うカスタムスラッシュコマンド5選！](https://tech.findy.co.jp/entry/2025/07/23/070000)
-
-
-
-### MCP
-https://docs.anthropic.com/ja/docs/claude-code/mcp
-
-
-### Sub Agent
-
-[Claude CodeのSub agentsでコンテキスト枯渇問題をサクッと解決できたはなし](https://zenn.dev/tacoms/articles/552140c84aaefa)
-
-
-### Kiroのような開発スタイルにする
-
-[Kiroの仕様書駆動開発プロセスをClaude Codeで徹底的に再現した](https://zenn.dev/gotalab/articles/3db0621ce3d6d2)
-
-
-### Serena
-https://blog.lai.so/serena/
-
-### security-review
-https://www.anthropic.com/news/automate-security-reviews-with-claude-code]]></content><author><name>takatori</name></author><category term="ClaudeCode" /><category term="AI" /><category term="開発ツール" /><summary type="html"><![CDATA[ClaudeCodeを使っていて学んだことを一箇所にまとめたTips集です。LLMに読ませたくないファイル管理や利用料金確認など実用的な情報をまとめています。]]></summary></entry></feed>
+</html>

@@ -25,7 +25,7 @@ $ npm install -g @anthropic-ai/claude-code
 
 ### 設定
 
-Claude Code自体の設定は[jsonファイル](https://docs.anthropic.com/ja/docs/claude-code/settings)に記述する  
+Claude Code自体の設定は[jsonファイル](https://docs.anthropic.com/ja/docs/claude-code/settings)に記述する。
 
 
 | 設定の種類       | ファイルパス                          | 適用範囲           | 用途・特徴                                                                 |
@@ -35,7 +35,7 @@ Claude Code自体の設定は[jsonファイル](https://docs.anthropic.com/ja/do
 | 個人用設定       | `.claude/settings.local.json`          | 該当プロジェクトのみ | 個人的・一時的な設定。ソース管理に含めない。作成時に`.gitignore`に自動で追加 |
 
 
-ユーザ設定をdotfilesに入れておくと良さそう
+ユーザ設定をdotfilesに入れておくと良さそう。
 
 #### 読ませたくないファイルの管理
 
@@ -47,9 +47,9 @@ Claude Code自体の設定は[jsonファイル](https://docs.anthropic.com/ja/do
 
 ### 利用料金を見る
 
-[ryoppippi/ccusage - GitHub](https://github.com/ryoppippi/ccusage)を使う
+[ryoppippi/ccusage - GitHub](https://github.com/ryoppippi/ccusage)を使う。
 
-料金を常に確認したい場合は、メニューバーに表示させておくと良さそう
+料金を常に確認したい場合は、メニューバーに表示させておく。
 
 [ccusageの出力をMacのメニューバーに表示する](https://zenn.dev/todesking/articles/ccusage-in-mac-menu-bar)
 
@@ -79,3 +79,10 @@ https://docs.anthropic.com/ja/docs/claude-code/mcp
 ### Kiroのような開発スタイルにする
 
 [Kiroの仕様書駆動開発プロセスをClaude Codeで徹底的に再現した](https://zenn.dev/gotalab/articles/3db0621ce3d6d2)
+
+
+### Serena
+https://blog.lai.so/serena/
+
+### security-review
+https://www.anthropic.com/news/automate-security-reviews-with-claude-code

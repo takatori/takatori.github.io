@@ -30,6 +30,11 @@ markdown: kramdown
 highlighter: rouge
 theme: minima
 
+# Markdown parser settings
+kramdown:
+  input: GFM  # Enable GitHub Flavored Markdown (autolink bare URLs, tables, etc.)
+  hard_wrap: false
+
 # Plugins
 plugins:
   - jekyll-feed
@@ -54,6 +59,10 @@ exclude:
   - vendor/ruby/
   - README.md
   - CLAUDE.md
+  - package.json
+  - package-lock.json
+  - docker-compose.yml
+  - Dockerfile
 
 # Collections
 collections:
