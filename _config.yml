@@ -3,10 +3,10 @@ title: takatori.github.io
 description: 技術ブログ
 baseurl: ""
 url: "https://takatori.github.io"
-
-# Author
+domain: takatori.github.io
+copyright: "Copyright © 2025 Satoshi Takatori"
 author:
-  name: takatori
+  name: Satoshi Takatori
 
 # Social media and OGP settings
 social:
