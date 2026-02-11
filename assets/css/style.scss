@@ -80,15 +80,26 @@ body {
   }
 
   .profile-links {
-    margin-top: 0.75rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 
     a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
       color: #586069;
+      background: #f6f8fa;
+      border-radius: 50%;
       text-decoration: none;
-      margin: 0 0.5rem;
+      transition: color 0.2s, background 0.2s;
 
       &:hover {
-        color: #0366d6;
+        color: #fff;
+        background: #24292e;
       }
     }
   }
