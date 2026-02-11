@@ -58,5 +58,20 @@
     "title": "Essential GraphRAG",
     "description": "Get this comprehensive guide from Manning on how to build a GraphRAG system from scratch. Available now for free!",
     "image": "https://dist.neo4j.com/wp-content/uploads/20250715075432/Essential-GraphRAG.png"
+  },
+  "https://zenn.dev/takatori/articles/48985727ba18e1": {
+    "title": "WeaviateでMUVERAを試す",
+    "description": "",
+    "image": "https://res.cloudinary.com/zenn/image/upload/s--p6sehI9Q--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_66:Weaviate%25E3%2581%25A7MUVERA%25E3%2582%2592%25E8%25A9%25A6%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E9%25B7%25B9%25E5%258F%2596%25E6%2595%258F%25E5%25BF%2597%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hXZGJaa3RIMWRFRER6TGJteEZDTXZfNHcyUnA1Wll0R25WcnlITGc9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACAGSGT"
+  },
+  "https://tech.layerx.co.jp/entry/2025/11/11/175652": {
+    "title": "Weaviateで実現するAIエージェントを活用した検索 - LayerX エンジニアブログ",
+    "description": "LayerXのAi Workforce事業部で検索エンジニアをしている鷹取(@takatorisatoshi)です。 この記事はLayerX AI Agentブログリレー43日目の記事です。 昨日は@po3rinさんのRepeated Samplingを使ったLLM推論時スケーリングで麻雀点数計算問題生成タスクを解くぞ！でした。 この記事ではベクトルデータベースであるWeaviateを使って、AIエージェントを使った高度な検索を簡単に実現する方法を紹介します。 はじめに LLM（大規模言語モデル）の普及により、検索のあり方が大きく変わりつつあります。 ユーザーの入力は従来のキーワード検索から、…",
+    "image": "https://cdn.image.st-hatena.com/image/scale/ac9b9d1a201b3f23b13485dc85e67c8557734189/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Ft%2Ftakatorix%2F20251111%2F20251111173750.png"
+  },
+  "https://tech.layerx.co.jp/entry/2025/12/22/151018": {
+    "title": "CocoIndexでKnowledge Graphを更新しながらRAGをする - LayerX エンジニアブログ",
+    "description": "LayerXのAi Workforce事業部で検索エンジニアをしている鷹取(@takatorisatoshi)です。この記事は LayerX Tech Advent Calendar 2025の22日目の記事です。 はじめに 通常、RAGといえば、ドキュメントをチャンク化し、Embedding（埋め込みベクトル）の類似度で検索を行うNative RAG（Retrieval-Augmented Generation）を指すことが一般的です。 Native RAGは手軽に導入できる一方で、いくつかの構造的な弱点があります。例えば、ベクトル化の過程で主語・述語・目的語といった論理構造が圧縮（Flat…",
+    "image": "https://cdn.image.st-hatena.com/image/scale/df809a9ad06fdb5650e66c16608b38e597b3a1c9/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Ft%2Ftakatorix%2F20251222%2F20251222110322.png"
   }
 }
