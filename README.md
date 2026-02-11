@@ -54,7 +54,7 @@ docker run -p 4000:4000 -v $(pwd):/srv/jekyll takatori-blog
 bundle exec jekyll serve
 ```
 
-ブラウザで `http://localhost:4000` を確認
+ブラウザで `http://localhost:4000` を確認。
 
 
 ## ✍️ 記事の書き方
