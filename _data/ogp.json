@@ -1,0 +1,62 @@
+{
+  "https://izanami.dev/post/d6f25eec-71aa-4746-8c0d-80c67a1459be": {
+    "title": "Claude Code に壊されないための denyルール完全ガイド - izanami",
+    "description": "Claude Code の permissions.deny 設定には、危険コマンドや env など機密ファイルの読み書き、外部通信、DB破壊を防ぐためのガードレールが詰まっている。AI活用時に必須のセキュリティ設計",
+    "image": "https://izanami.dev/post/d6f25eec-71aa-4746-8c0d-80c67a1459be/opengraph-image-1umokf?5589478d64c13f8a"
+  },
+  "https://zenn.dev/todesking/articles/ccusage-in-mac-menu-bar": {
+    "title": "ccusageの出力をMacのメニューバーに表示する",
+    "description": "",
+    "image": "https://res.cloudinary.com/zenn/image/upload/s--gS_qRlsg--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:ccusage%25E3%2581%25AE%25E5%2587%25BA%25E5%258A%259B%25E3%2582%2592Mac%25E3%2581%25AE%25E3%2583%25A1%25E3%2583%258B%25E3%2583%25A5%25E3%2583%25BC%25E3%2583%2590%25E3%2583%25BC%25E3%2581%25AB%25E8%25A1%25A8%25E7%25A4%25BA%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:todesking%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzJiNGY3OGYyOTUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACAGSGT"
+  },
+  "https://syu-m-5151.hatenablog.com/entry/2025/07/14/105812": {
+    "title": "Claude CodeのHooksは設定したほうがいい - じゃあ、おうちで学べる",
+    "description": "Claude Codeを使い始めて、様々な発信をしてきました。俺の(n)vimerとしてのアイデンティティを取り戻してくれたので感謝しています。settings.jsonやCLAUDE.md、.claude/commands/**.mdの設定について書いてきました。今回は「Hooks」について。これも設定しておくと、Claude Codeがグッと使いやすくなる機能です。 syu-m-5151.hatenablog.com このブログが良ければ読者になったり、nwiizoのXやGithubをフォロワーしてくれると嬉しいです。では、早速はじめていきます。 はじめに ここで読むのをやめる人のために言…",
+    "image": "https://ogimage.blog.st-hatena.com/8454420450094081900/6802418398508505456/1752547884"
+  },
+  "https://tech.findy.co.jp/entry/2025/07/23/070000": {
+    "title": "【Claude Codeの活用事例】よく使うカスタムスラッシュコマンド5選！ - Findy Tech Blog",
+    "description": "こんにちは。ファインディでソフトウェアエンジニアをしている千田（@_c0909）です。 2025年3月末頃からファインディに導入されたClaude Codeは、私たちの開発フローに大きな変化をもたらしました。特に私が注目し活用を進めてきたのが、カスタムスラッシュコマンドの機能です。 Claude Codeを初めて触った時は、CLAUDE.mdに長文で汎用的な指示を書いてコードを生成していました。しかし、全てのプロンプトを網羅するには限界があり、より効率的な活用方法を模索していました。そんな中で出会ったのが、このカスタムスラッシュコマンド機能です。 この機能は、日々のGit操作やコーディング作業…",
+    "image": "https://cdn.image.st-hatena.com/image/scale/7878dbbfb1a2b14a1e83e40935301a74ebe0953e/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Ft%2Ft-chida0909%2F20250718%2F20250718185253.png"
+  },
+  "https://docs.anthropic.com/ja/docs/claude-code/mcp": {
+    "title": "MCPを使用してClaude Codeをツールに接続する - Claude Code Docs",
+    "description": "Model Context Protocolを使用してClaude Codeをツールに接続する方法を学びます。",
+    "image": "https://claude-code.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DClaude%2BCode%2B%25E3%2581%25A7%25E6%25A7%258B%25E7%25AF%2589%25E3%2581%2599%25E3%2582%258B%26appearance%3Dsystem%26title%3DMCP%25E3%2582%2592%25E4%25BD%25BF%25E7%2594%25A8%25E3%2581%2597%25E3%2581%25A6Claude%2BCode%25E3%2582%2592%25E3%2583%2584%25E3%2583%25BC%25E3%2583%25AB%25E3%2581%25AB%25E6%258E%25A5%25E7%25B6%259A%25E3%2581%2599%25E3%2582%258B%26description%3DModel%2BContext%2BProtocol%25E3%2582%2592%25E4%25BD%25BF%25E7%2594%25A8%25E3%2581%2597%25E3%2581%25A6Claude%2BCode%25E3%2582%2592%25E3%2583%2584%25E3%2583%25BC%25E3%2583%25AB%25E3%2581%25AB%25E6%258E%25A5%25E7%25B6%259A%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%25E3%2582%2592%25E5%25AD%25A6%25E3%2581%25B3%25E3%2581%25BE%25E3%2581%2599%25E3%2580%2582%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fo69F7a6qoW9vboof%252Flogo%252Flight.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Do69F7a6qoW9vboof%2526q%253D85%2526s%253D536eade682636e84231afce2577f9509%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fo69F7a6qoW9vboof%252Flogo%252Fdark.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Do69F7a6qoW9vboof%2526q%253D85%2526s%253D0766b3221061e80143e9f300733e640b%26primaryColor%3D%25230E0E0E%26lightColor%3D%2523D4A27F%26darkColor%3D%25230E0E0E%26backgroundLight%3D%2523FDFDF7%26backgroundDark%3D%252309090B&amp;w=1200&amp;q=100"
+  },
+  "https://zenn.dev/tacoms/articles/552140c84aaefa": {
+    "title": "Claude CodeのSub agentsでコンテキスト枯渇問題をサクッと解決できたはなし",
+    "description": "",
+    "image": "https://res.cloudinary.com/zenn/image/upload/s--Q1S1GrwX--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25AESub%2520agents%25E3%2581%25A7%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%2586%25E3%2582%25AD%25E3%2582%25B9%25E3%2583%2588%25E6%259E%25AF%25E6%25B8%2587%25E5%2595%258F%25E9%25A1%258C%25E3%2582%2592%25E3%2582%25B5%25E3%2582%25AF%25E3%2583%2583%25E3%2581%25A8%25E8%25A7%25A3%25E6%25B1%25BA%25E3%2581%25A7%25E3%2581%258D%25E3%2581%259F%25E3%2581%25AF%25E3%2581%25AA%25E3%2581%2597%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:shinpr%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2E1NTlmNWNjYmUuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E6%2597%25A7tacoms%25E3%2583%2586%25E3%2583%2583%25E3%2582%25AF%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS2I0SW9Hd2prZ1VVSkx3dzJCWXpXQzhFcHd1ZmhPaHVmNlBBOW1ESHk4VTdRPXM5Ni1j%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACAGSGT"
+  },
+  "https://aws.amazon.com/jp/blogs/news/introducing-kiro/": {
+    "title": "Kiro のご紹介 – プロトタイプからプロダクションまで、あなたと共に働く新しい Agentic IDE | Amazon Web Services",
+    "description": "コンセプトからプロダクションまで、AI エージェントとの作業を簡素化した開発者体験を通じて開発を支援する AI IDE（統合開発環境）、Kiro の発表を嬉しく思います。Kiro は Vibe Coding &quot;も&quot; 得意ですが、それをはるかに超えています。Kiro の強みは、スペック (spec) やフック (hook) などの機能を使って、これらのプロトタイプをプロダクションシステムに移行することです。",
+    "image": "https://d2908q01vomqb2.cloudfront.net/b3f0c7f6bb763af1be91d9e74eabfeb199dc1f1f/2025/07/14/emlUxRBb.jpeg"
+  },
+  "https://zenn.dev/gotalab/articles/3db0621ce3d6d2": {
+    "title": "Kiroの仕様書駆動開発プロセスをClaude Codeで徹底的に再現した",
+    "description": "",
+    "image": "https://res.cloudinary.com/zenn/image/upload/s--5cJxFp0a--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Kiro%25E3%2581%25AE%25E4%25BB%2595%25E6%25A7%2598%25E6%259B%25B8%25E9%25A7%2586%25E5%258B%2595%25E9%2596%258B%25E7%2599%25BA%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25BB%25E3%2582%25B9%25E3%2582%2592Claude%2520Code%25E3%2581%25A7%25E5%25BE%25B9%25E5%25BA%2595%25E7%259A%2584%25E3%2581%25AB%25E5%2586%258D%25E7%258F%25BE%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Gota%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzFjODFlNTg0OGUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACAGSGT"
+  },
+  "https://blog.lai.so/serena/": {
+    "title": "Serena MCPはClaude Codeを救うのか？",
+    "description": "「Claude Codeがアホになる問題」が勃発している最中、SerenaというMCPサーバーが「Claude Codeのコンテキスト消費を削減し、応答を改善する」という評価でユーザーたちの間で注目されています。\n\n筆者も実際にSerenaを使ってみたところ、確かにコンテキスト効率の改善（入出力トークンの減少を指します）を実感できました。詳しく調べてみると、このツールは非常にユニークな発想で設計されており、一過性の流行として消費されるには惜しいと感じました。\n\nそこで、本記事では、この機能の背景にある技術的な仕組みを詳しく解説したいと思います。実際の検証も交えながら、Serenaのアーキテクチャとその効果を分析していきます。\n\n\n現在のコーディングエージェントが抱える課題\n\n現在のコーディングエージェントの多くは、コードを単なるテキストファイルとして扱って逐次的な処理をしています。この根本的なアプローチが、制約を生み出しています。\n\n大規模なプロジェクトで作業する際、エージェントは必要な情報を見つけるために膨大なテキストを読み込まなければなりません。関数の定義を探すだけでも、リポジトリ",
+    "image": "https://blog.lai.so/content/images/2025/03/my-github-icon-2024-2.png"
+  },
+  "https://www.anthropic.com/news/automate-security-reviews-with-claude-code": {
+    "title": "Automate security reviews with Claude Code | Claude",
+    "description": "Meta Description (238 characters): &quot;Introducing automated security reviews in Claude Code. Use the new /security-review command and GitHub Actions integration to identify and fix vulnerabilities before they reach production. Catch SQL injection, XSS, and authentication flaws automatically.",
+    "image": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_og-claude-generic.jpg"
+  },
+  "https://github.com/takatori/essential-graph-rag": {
+    "title": "GitHub - takatori/essential-graph-rag",
+    "description": "Contribute to takatori/essential-graph-rag development by creating an account on GitHub.",
+    "image": "https://opengraph.githubassets.com/77ea72dd2aa09ad0ae5f9559d67917905804cc20613e5d8f88b8d728a3c0e8f1/takatori/essential-graph-rag"
+  },
+  "https://neo4j.com/essential-graphrag/": {
+    "title": "Essential GraphRAG",
+    "description": "Get this comprehensive guide from Manning on how to build a GraphRAG system from scratch. Available now for free!",
+    "image": "https://dist.neo4j.com/wp-content/uploads/20250715075432/Essential-GraphRAG.png"
+  }
+}

@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Technical blog",
   "scripts": {
-    "textlint": "textlint '_posts/**/*.md' README.md",
-    "textlint:fix": "textlint --fix '_posts/**/*.md' README.md"
+    "fetch-ogp": "node scripts/fetch-ogp.mjs",
+    "fetch-ogp:force": "node scripts/fetch-ogp.mjs --force",
+    "textlint": "textlint 'posts/**/index.md' README.md",
+    "textlint:fix": "textlint --fix 'posts/**/index.md' README.md"
   },
   "devDependencies": {
     "textlint": "^14.0.0",

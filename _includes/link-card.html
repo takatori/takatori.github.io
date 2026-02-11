@@ -1,0 +1,16 @@
+<div class="link-card">
+  <a href="{{ include.url }}" target="_blank" rel="noopener noreferrer">
+    {%- if include.image -%}
+    <div class="link-card-image">
+      <img src="{{ include.image }}" alt="{{ include.title | xml_escape }}" loading="lazy">
+    </div>
+    {%- endif -%}
+    <div class="link-card-content">
+      <div class="link-card-title">{{ include.title }}</div>
+      {%- if include.description -%}
+      <div class="link-card-description">{{ include.description }}</div>
+      {%- endif -%}
+      <div class="link-card-url">{{ include.url | replace: "https://", "" | replace: "http://", "" | split: "/" | first }}</div>
+    </div>
+  </a>
+</div>

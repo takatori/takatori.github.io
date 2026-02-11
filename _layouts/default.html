@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'ja' }}">
+  {%- include head.html -%}
+  <body>
+    {%- include site-header.html -%}
+    <div class="container-lg px-3 my-5 markdown-body">
+      {{ content }}
+    </div>
+    {%- include site-footer.html -%}
+    {%- if site.data.ogp -%}
+    <script>window.__ogpData = {{ site.data.ogp | jsonify }};</script>
+    {%- endif -%}
+    <script src="{{ '/assets/js/link-card.js' | relative_url }}" defer></script>
+  </body>
+</html>

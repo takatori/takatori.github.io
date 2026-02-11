@@ -38,15 +38,11 @@ remote_theme: pages-themes/primer@v0.6.0
 
 lang: ja
 
-
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-remote-theme 
-  
-# Permalink structure
-permalink: /:year/:month/:day/:title/
+  - jekyll-remote-theme
+  - jekyll-redirect-from
 
 # Exclude from processing
 exclude:
@@ -63,17 +59,12 @@ exclude:
   - package-lock.json
   - docker-compose.yml
   - Dockerfile
+  - scripts
 
-# Collections
-collections:
-  posts:
-    output: true
-
-# Default settings
+# Default settings for posts
 defaults:
   - scope:
-      path: ""
-      type: "posts"
+      path: "posts"
     values:
       layout: "post"
       author: "takatori"

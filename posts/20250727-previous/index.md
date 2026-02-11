@@ -3,6 +3,9 @@ title: "過去の記事"
 date: 2025-07-27
 tags: []
 description: "過去の記事のリンクをまとめた記事"
+layout: post
+redirect_from:
+  - /2025/07/27/previous/
 ---
 
 ### 個人

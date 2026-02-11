@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<article>
+  <h1>{{ page.title }}</h1>
+  <div class="post-card-meta">
+    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y年%m月%d日" }}</time>
+    {%- if page.author %} &middot; {{ page.author }}{% endif -%}
+  </div>
+  {%- if page.tags.size > 0 -%}
+  <div class="post-card-tags" style="margin-bottom: 1.5rem;">
+    {%- for tag in page.tags -%}
+      <span class="tag">{{ tag }}</span>
+    {%- endfor -%}
+  </div>
+  {%- endif -%}
+
+  {{ content }}
+</article>

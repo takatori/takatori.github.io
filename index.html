@@ -1,14 +1,21 @@
 ---
-layout: default
-title: Posts
-permalink: /posts/
+layout: home
+title: Home
 ---
 
-<h1>{{ page.title }}</h1>
+<section class="profile">
+  <h1>{{ site.author.name }}</h1>
+  <p class="profile-description">{{ site.description }}</p>
+  <div class="profile-links">
+    <a href="https://github.com/takatori">GitHub</a>
+  </div>
+</section>
+
+<h2 class="section-heading">最新の記事</h2>
 
 {% assign posts = site.pages | where: "layout", "post" | sort: "date" | reverse %}
 <ul class="post-list">
-  {%- for post in posts -%}
+  {%- for post in posts limit:5 -%}
   <li class="post-card">
     <h3 class="post-card-title">
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -29,3 +36,5 @@ permalink: /posts/
   </li>
   {%- endfor -%}
 </ul>
+
+<p><a class="view-all" href="{{ '/posts/' | relative_url }}">すべての記事を見る &rarr;</a></p>

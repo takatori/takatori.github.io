@@ -3,6 +3,9 @@ title: "ClaudeCodeの使い方Tips集"
 date: 2025-07-22
 tags: [ClaudeCode, AI, 開発ツール]
 description: "ClaudeCodeを使っていて学んだことを一箇所にまとめたTips集です。LLMに読ませたくないファイル管理や利用料金確認など実用的な情報をまとめています。"
+layout: post
+redirect_from:
+  - /2025/07/22/claudecode/
 ---
 
 これはClaudeCodeを使っていて学んだことを一箇所にまとめておくための記事です。
