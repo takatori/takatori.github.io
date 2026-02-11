@@ -25,6 +25,8 @@ twitter:
 # OGP settings
 og_image: /assets/images/default-og.png
 
+google_analytics: G-NDG76E7JR8
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
