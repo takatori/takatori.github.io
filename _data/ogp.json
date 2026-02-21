@@ -20,9 +20,9 @@
     "image": "https://cdn.image.st-hatena.com/image/scale/7878dbbfb1a2b14a1e83e40935301a74ebe0953e/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Ft%2Ft-chida0909%2F20250718%2F20250718185253.png"
   },
   "https://docs.anthropic.com/ja/docs/claude-code/mcp": {
-    "title": "MCPを使用してClaude Codeをツールに接続する - Claude Code Docs",
-    "description": "Model Context Protocolを使用してClaude Codeをツールに接続する方法を学びます。",
-    "image": "https://claude-code.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DClaude%2BCode%2B%25E3%2581%25A7%25E6%25A7%258B%25E7%25AF%2589%25E3%2581%2599%25E3%2582%258B%26appearance%3Dsystem%26title%3DMCP%25E3%2582%2592%25E4%25BD%25BF%25E7%2594%25A8%25E3%2581%2597%25E3%2581%25A6Claude%2BCode%25E3%2582%2592%25E3%2583%2584%25E3%2583%25BC%25E3%2583%25AB%25E3%2581%25AB%25E6%258E%25A5%25E7%25B6%259A%25E3%2581%2599%25E3%2582%258B%26description%3DModel%2BContext%2BProtocol%25E3%2582%2592%25E4%25BD%25BF%25E7%2594%25A8%25E3%2581%2597%25E3%2581%25A6Claude%2BCode%25E3%2582%2592%25E3%2583%2584%25E3%2583%25BC%25E3%2583%25AB%25E3%2581%25AB%25E6%258E%25A5%25E7%25B6%259A%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%25E3%2582%2592%25E5%25AD%25A6%25E3%2581%25B3%25E3%2581%25BE%25E3%2581%2599%25E3%2580%2582%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fo69F7a6qoW9vboof%252Flogo%252Flight.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Do69F7a6qoW9vboof%2526q%253D85%2526s%253D536eade682636e84231afce2577f9509%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fo69F7a6qoW9vboof%252Flogo%252Fdark.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Do69F7a6qoW9vboof%2526q%253D85%2526s%253D0766b3221061e80143e9f300733e640b%26primaryColor%3D%25230E0E0E%26lightColor%3D%2523D4A27F%26darkColor%3D%25230E0E0E%26backgroundLight%3D%2523FDFDF7%26backgroundDark%3D%252309090B&amp;w=1200&amp;q=100"
+    "title": "MCP を使用して Claude Code をツールに接続する - Claude Code Docs",
+    "description": "Model Context Protocol を使用して Claude Code をツールに接続する方法を学びます。",
+    "image": "https://claude-code.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DClaude%2BCode%2B%25E3%2581%25A7%25E6%25A7%258B%25E7%25AF%2589%25E3%2581%2599%25E3%2582%258B%26appearance%3Dsystem%26title%3DMCP%2B%25E3%2582%2592%25E4%25BD%25BF%25E7%2594%25A8%25E3%2581%2597%25E3%2581%25A6%2BClaude%2BCode%2B%25E3%2582%2592%25E3%2583%2584%25E3%2583%25BC%25E3%2583%25AB%25E3%2581%25AB%25E6%258E%25A5%25E7%25B6%259A%25E3%2581%2599%25E3%2582%258B%26description%3DModel%2BContext%2BProtocol%2B%25E3%2582%2592%25E4%25BD%25BF%25E7%2594%25A8%25E3%2581%2597%25E3%2581%25A6%2BClaude%2BCode%2B%25E3%2582%2592%25E3%2583%2584%25E3%2583%25BC%25E3%2583%25AB%25E3%2581%25AB%25E6%258E%25A5%25E7%25B6%259A%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%25E3%2582%2592%25E5%25AD%25A6%25E3%2581%25B3%25E3%2581%25BE%25E3%2581%2599%25E3%2580%2582%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252FTBPmHzr19mDCuhZi%252Flogo%252Flight.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253DTBPmHzr19mDCuhZi%2526q%253D85%2526s%253Dd535f2e20f53cd911acc59ad1b64b2e0%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252FTBPmHzr19mDCuhZi%252Flogo%252Fdark.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253DTBPmHzr19mDCuhZi%2526q%253D85%2526s%253D28e49a2ffe69101f4aae9bfa70b393d0%26primaryColor%3D%25230E0E0E%26lightColor%3D%2523D4A27F%26darkColor%3D%25230E0E0E%26backgroundLight%3D%2523FDFDF7%26backgroundDark%3D%252309090B&amp;w=1200&amp;q=100"
   },
   "https://zenn.dev/tacoms/articles/552140c84aaefa": {
     "title": "Claude CodeのSub agentsでコンテキスト枯渇問題をサクッと解決できたはなし",
@@ -49,20 +49,15 @@
     "description": "Meta Description (238 characters): &quot;Introducing automated security reviews in Claude Code. Use the new /security-review command and GitHub Actions integration to identify and fix vulnerabilities before they reach production. Catch SQL injection, XSS, and authentication flaws automatically.",
     "image": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_og-claude-generic.jpg"
   },
-  "https://github.com/takatori/essential-graph-rag": {
-    "title": "GitHub - takatori/essential-graph-rag",
-    "description": "Contribute to takatori/essential-graph-rag development by creating an account on GitHub.",
-    "image": "https://opengraph.githubassets.com/77ea72dd2aa09ad0ae5f9559d67917905804cc20613e5d8f88b8d728a3c0e8f1/takatori/essential-graph-rag"
-  },
   "https://neo4j.com/essential-graphrag/": {
     "title": "Essential GraphRAG",
     "description": "Get this comprehensive guide from Manning on how to build a GraphRAG system from scratch. Available now for free!",
     "image": "https://dist.neo4j.com/wp-content/uploads/20250715075432/Essential-GraphRAG.png"
   },
-  "https://zenn.dev/takatori/articles/48985727ba18e1": {
-    "title": "WeaviateでMUVERAを試す",
-    "description": "",
-    "image": "https://res.cloudinary.com/zenn/image/upload/s--p6sehI9Q--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_66:Weaviate%25E3%2581%25A7MUVERA%25E3%2582%2592%25E8%25A9%25A6%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E9%25B7%25B9%25E5%258F%2596%25E6%2595%258F%25E5%25BF%2597%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hXZGJaa3RIMWRFRER6TGJteEZDTXZfNHcyUnA1Wll0R25WcnlITGc9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACAGSGT"
+  "https://github.com/takatori/essential-graph-rag": {
+    "title": "GitHub - takatori/essential-graph-rag",
+    "description": "Contribute to takatori/essential-graph-rag development by creating an account on GitHub.",
+    "image": "https://opengraph.githubassets.com/77ea72dd2aa09ad0ae5f9559d67917905804cc20613e5d8f88b8d728a3c0e8f1/takatori/essential-graph-rag"
   },
   "https://tech.layerx.co.jp/entry/2025/11/11/175652": {
     "title": "Weaviateで実現するAIエージェントを活用した検索 - LayerX エンジニアブログ",
@@ -74,10 +69,15 @@
     "description": "LayerXのAi Workforce事業部で検索エンジニアをしている鷹取(@takatorisatoshi)です。この記事は LayerX Tech Advent Calendar 2025の22日目の記事です。 はじめに 通常、RAGといえば、ドキュメントをチャンク化し、Embedding（埋め込みベクトル）の類似度で検索を行うNative RAG（Retrieval-Augmented Generation）を指すことが一般的です。 Native RAGは手軽に導入できる一方で、いくつかの構造的な弱点があります。例えば、ベクトル化の過程で主語・述語・目的語といった論理構造が圧縮（Flat…",
     "image": "https://cdn.image.st-hatena.com/image/scale/df809a9ad06fdb5650e66c16608b38e597b3a1c9/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Ft%2Ftakatorix%2F20251222%2F20251222110322.png"
   },
+  "https://zenn.dev/takatori/articles/48985727ba18e1": {
+    "title": "WeaviateでMUVERAを試す",
+    "description": "",
+    "image": "https://res.cloudinary.com/zenn/image/upload/s--p6sehI9Q--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_66:Weaviate%25E3%2581%25A7MUVERA%25E3%2582%2592%25E8%25A9%25A6%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E9%25B7%25B9%25E5%258F%2596%25E6%2595%258F%25E5%25BF%2597%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hXZGJaa3RIMWRFRER6TGJteEZDTXZfNHcyUnA1Wll0R25WcnlITGc9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACAGSGT"
+  },
   "https://www.arxiv.org/abs/2602.03442": {
     "title": "A-RAG: Scaling Agentic Retrieval-Augmented Generation via Hierarchical Retrieval Interfaces",
     "description": "Frontier language models have demonstrated strong reasoning and long-horizon tool-use capabilities. However, existing RAG systems fail to leverage these capabilities. They still rely on two paradigms: (1) designing an algorithm that retrieves passages in a single shot and concatenates them into the model&#39;s input, or (2) predefining a workflow and prompting the model to execute it step-by-step. Neither paradigm allows the model to participate in retrieval decisions, preventing efficient scaling with model improvements. In this paper, we introduce A-RAG, an Agentic RAG framework that exposes hierarchical retrieval interfaces directly to the model. A-RAG provides three retrieval tools: keyword search, semantic search, and chunk read, enabling the agent to adaptively search and retrieve information across multiple granularities. Experiments on multiple open-domain QA benchmarks show that A-RAG consistently outperforms existing approaches with comparable or lower retrieved tokens, demonstrating that A-RAG effectively leverages model capabilities and dynamically adapts to different RAG tasks. We further systematically study how A-RAG scales with model size and test-time compute. We will release our code and evaluation suite to facilitate future research. Code and evaluation suite are available at https://github.com/Ayanami0730/arag.",
-    "image": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    "image": "https://www.arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
   },
   "https://www.amazon.science/publications/keyword-search-is-all-you-need-achieving-rag-level-performance-without-vector-databases-using-agentic-tool-use": {
     "title": "Keyword search is all you need: Achieving RAG-level performance without vector databases using agentic tool use",
@@ -87,6 +87,6 @@
   "https://arxiv.org/abs/2503.19092": {
     "title": "Rankers, Judges, and Assistants: Towards Understanding the Interplay of LLMs in Information Retrieval Evaluation",
     "description": "Large language models (LLMs) are increasingly integral to information retrieval (IR), powering ranking, evaluation, and AI-assisted content creation. This widespread adoption necessitates a critical examination of potential biases arising from the interplay between these LLM-based components. This paper synthesizes existing research and presents novel experiment designs that explore how LLM-based rankers and assistants influence LLM-based judges. We provide the first empirical evidence of LLM judges exhibiting significant bias towards LLM-based rankers. Furthermore, we observe limitations in LLM judges&#39; ability to discern subtle system performance differences. Contrary to some previous findings, our preliminary study does not find evidence of bias against AI-generated content. These results highlight the need for a more holistic view of the LLM-driven information ecosystem. To this end, we offer initial guidelines and a research agenda to ensure the reliable use of LLMs in IR evaluation.",
-    "image": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
   }
 }

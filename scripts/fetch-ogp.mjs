@@ -124,6 +124,15 @@ async function fetchOgp(url) {
     const html = await res.text();
     const ogp = parseOgp(html);
 
+    // 相対パスの画像URLを絶対URLに変換
+    if (ogp.image && !ogp.image.startsWith("http")) {
+      try {
+        ogp.image = new URL(ogp.image, url).toString();
+      } catch {
+        // 変換できない場合はそのまま
+      }
+    }
+
     if (!ogp.title) return null;
     return ogp;
   } catch {
