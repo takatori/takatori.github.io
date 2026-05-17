@@ -22,56 +22,61 @@ permalink: /posts/
   </header>
 
   {%- if unique_tags.size > 0 -%}
-  <div class="tag-filter" role="group" aria-label="タグで絞り込み">
-    <button type="button" class="tag-chip is-active" data-tag="all">
-      All <span class="tag-chip-count">{{ posts | size }}</span>
-    </button>
-    {%- for tag in unique_tags -%}
-      {% assign tag_count = 0 %}
-      {% for t in all_tags %}{% if t == tag %}{% assign tag_count = tag_count | plus: 1 %}{% endif %}{% endfor %}
-    <button type="button" class="tag-chip" data-tag="{{ tag | downcase }}">
-      {{ tag }} <span class="tag-chip-count">{{ tag_count }}</span>
-    </button>
-    {%- endfor -%}
-  </div>
+  <aside class="posts-sidebar" aria-label="カテゴリ">
+    <h2 class="sidebar-heading">Categories</h2>
+    <div class="tag-filter" role="group">
+      <button type="button" class="tag-chip is-active" data-tag="all">
+        All <span class="tag-chip-count">{{ posts | size }}</span>
+      </button>
+      {%- for tag in unique_tags -%}
+        {% assign tag_count = 0 %}
+        {% for t in all_tags %}{% if t == tag %}{% assign tag_count = tag_count | plus: 1 %}{% endif %}{% endfor %}
+      <button type="button" class="tag-chip" data-tag="{{ tag | downcase }}">
+        {{ tag }} <span class="tag-chip-count">{{ tag_count }}</span>
+      </button>
+      {%- endfor -%}
+    </div>
+  </aside>
   {%- endif -%}
 
-  {% assign posts_by_year = posts | group_by_exp: "post", "post.date | date: '%Y'" %}
-  <div class="posts-by-year">
-    {%- for year_group in posts_by_year -%}
-    <section class="year-section" data-year="{{ year_group.name }}">
-      <h2 class="year-heading">{{ year_group.name }}</h2>
-      <ul class="post-list">
-        {%- for post in year_group.items -%}
-        {% assign post_tag_slugs = "" %}
-        {% for tag in post.tags %}{% assign post_tag_slugs = post_tag_slugs | append: tag | downcase | append: " " %}{% endfor %}
-        <li class="post-card" data-tags="{{ post_tag_slugs | strip }}">
-          <div class="post-card-date">
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m/%d" }}</time>
-          </div>
-          <div class="post-card-body">
-            <h3 class="post-card-title">
-              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-            </h3>
-            {%- if post.description -%}
-            <p class="post-card-description">{{ post.description }}</p>
-            {%- endif -%}
-            {%- if post.tags.size > 0 -%}
-            <div class="post-card-tags">
-              {%- for tag in post.tags -%}
-                <span class="tag">{{ tag }}</span>
-              {%- endfor -%}
+  <main class="posts-main">
+    {% assign posts_by_year = posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+    <div class="posts-by-year">
+      {%- for year_group in posts_by_year -%}
+      <section class="year-section" data-year="{{ year_group.name }}">
+        <h2 class="year-heading">{{ year_group.name }}</h2>
+        <ul class="post-list">
+          {%- for post in year_group.items -%}
+          {% assign post_tag_slugs = "" %}
+          {% for tag in post.tags %}{% assign post_tag_slugs = post_tag_slugs | append: tag | downcase | append: " " %}{% endfor %}
+          <li class="post-card" data-tags="{{ post_tag_slugs | strip }}">
+            <div class="post-card-date">
+              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m/%d" }}</time>
             </div>
-            {%- endif -%}
-          </div>
-        </li>
-        {%- endfor -%}
-      </ul>
-    </section>
-    {%- endfor -%}
-  </div>
+            <div class="post-card-body">
+              <h3 class="post-card-title">
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              </h3>
+              {%- if post.description -%}
+              <p class="post-card-description">{{ post.description }}</p>
+              {%- endif -%}
+              {%- if post.tags.size > 0 -%}
+              <div class="post-card-tags">
+                {%- for tag in post.tags -%}
+                  <span class="tag">{{ tag }}</span>
+                {%- endfor -%}
+              </div>
+              {%- endif -%}
+            </div>
+          </li>
+          {%- endfor -%}
+        </ul>
+      </section>
+      {%- endfor -%}
+    </div>
 
-  <p class="posts-empty" hidden>該当する記事はありません。</p>
+    <p class="posts-empty" hidden>該当する記事はありません。</p>
+  </main>
 </div>
 
 <script>
