@@ -88,5 +88,10 @@
     "title": "Rankers, Judges, and Assistants: Towards Understanding the Interplay of LLMs in Information Retrieval Evaluation",
     "description": "Large language models (LLMs) are increasingly integral to information retrieval (IR), powering ranking, evaluation, and AI-assisted content creation. This widespread adoption necessitates a critical examination of potential biases arising from the interplay between these LLM-based components. This paper synthesizes existing research and presents novel experiment designs that explore how LLM-based rankers and assistants influence LLM-based judges. We provide the first empirical evidence of LLM judges exhibiting significant bias towards LLM-based rankers. Furthermore, we observe limitations in LLM judges&#39; ability to discern subtle system performance differences. Contrary to some previous findings, our preliminary study does not find evidence of bias against AI-generated content. These results highlight the need for a more holistic view of the LLM-driven information ecosystem. To this end, we offer initial guidelines and a research agenda to ensure the reliable use of LLMs in IR evaluation.",
     "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+  },
+  "https://tech.layerx.co.jp/entry/2026/05/15/112547": {
+    "title": "検索エンジン上に作るAgent向け仮想ファイルシステム - LayerX エンジニアブログ",
+    "description": "こんにちは、Ai Workforce事業部でAI検索エンジニアをしている鷹取です。 AIエージェントにドキュメントを探させる方法として、最近は検索ツールを使わせるアプローチに関心があります。検索APIを直接呼ばせる方法もありますが、ディレクトリを見たり、候補文書を読んだり、検索語を変えたりできる探索的なインターフェースも相性が良さそうです。 その方法として面白いのが、Agent向けの仮想ファイルシステムです。Agentには ls, cat, grep のようなファイル操作を見せつつ、実体は検索エンジン上のデータにします。これなら、Agentはファイルを探索しているように振る舞えますが、システム…",
+    "image": "https://cdn.image.st-hatena.com/image/scale/3186116dc90688eb0b9012eb840822bfdcb7a1f1/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fi%2Fipod_nana%2F20260515%2F20260515132756.png"
   }
 }
